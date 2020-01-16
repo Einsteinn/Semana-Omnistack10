@@ -33,7 +33,6 @@ function DevForm({ onSubmit }) {
             longitude
         })
 
-
         setGithub_username('')
         setTecnologias('')
         setLatitude('')
