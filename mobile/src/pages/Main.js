@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import MapView, { Marker, Callout } from 'react-native-maps'
-import { StyleSheet, Image, View, Text, TextInput, TouchableOpacity, Keyboard } from 'react-native'
+import { StyleSheet, Image, View, Text, TextInput, TouchableOpacity } from 'react-native'
 import { getCurrentPositionAsync, requestPermissionsAsync } from 'expo-location'
 import { FontAwesome5 } from '@expo/vector-icons'
 import api from '../services/api'
