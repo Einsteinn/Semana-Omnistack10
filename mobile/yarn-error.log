@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Users\einst.DESKTOP-5HMPA2S\Downloads\node vscode\node\node\node.exe C:\Users\einst.DESKTOP-5HMPA2S\Downloads\node vscode\node\node\node_modules\yarn\bin\yarn.js add axios
+  C:\Users\einst.DESKTOP-5HMPA2S\Downloads\node vscode\node\node\node.exe C:\Users\einst.DESKTOP-5HMPA2S\Downloads\node vscode\node\node\node_modules\yarn\bin\yarn.js add socket.io-client
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\einst.DESKTOP-5HMPA2S\Downloads\node vscode\node\node;C:\Users\einst.DESKTOP-5HMPA2S\AppData\Local\Microsoft\WindowsApps;C:\Users\einst.DESKTOP-5HMPA2S\AppData\Local\Programs\Git\cmd
@@ -28,21 +28,22 @@ npm manifest:
     },
     "dependencies": {
       "@react-native-community/masked-view": "^0.1.6",
+      "axios": "^0.19.1",
       "expo": "~36.0.0",
+      "expo-location": "~8.0.0",
       "maps": "^0.3.3",
       "react": "~16.9.0",
       "react-dom": "~16.9.0",
       "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
       "react-native-gesture-handler": "~1.5.0",
+      "react-native-maps": "0.26.1",
       "react-native-reanimated": "~1.4.0",
       "react-native-safe-area-context": "0.6.0",
       "react-native-screens": "2.0.0-alpha.12",
       "react-native-web": "~0.11.7",
+      "react-native-webview": "7.4.3",
       "react-navigation": "^4.0.10",
-      "react-navigation-stack": "^2.0.15",
-      "react-native-maps": "0.26.1",
-      "expo-location": "~8.0.0",
-      "react-native-webview": "7.4.3"
+      "react-navigation-stack": "^2.0.15"
     },
     "devDependencies": {
       "babel-preset-expo": "~8.0.0",
